@@ -18,6 +18,6 @@
               username: 'roti@softwareag.com'
               password: ${{ secrets.AZURE_DEVOPS_TOKEN }}
               customHeaders: '{"Content-Type": "application/json"}'
-              data: '{"parameters": "{\"repoName\":\"${{ github.event.repository.name }}\",\"synchProject\":\"true\"}","definition":{"id": 24}}'
+              data: '{"parameters": "{\"repoName\":\"${{ github.event.repository.name }}\",\"synchProject\":\"true\"}","definition":{"id": 16}}'
 
               
